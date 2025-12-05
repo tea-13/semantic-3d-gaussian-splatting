@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# LangSplat additions
+submodules/
+SIBR_viewers/
+dataset/
+*.pyc
+.vscode
+output
+build
+diff_rasterization/diff_rast.egg-info
+diff_rasterization/dist
+data
+tensorboard_3d
+**/__pycache__/
+events.out*
+ckpt
+release
+
+# gaussian-splatting additions
+lerf_ovs/
+*.pyc
+.vscode
+output
+build
+diff_rasterization/diff_rast.egg-info
+diff_rasterization/dist
+tensorboard_3d
+screenshots

@@ -1,0 +1,25 @@
+name: langsplat_cuda12
+channels:
+  - conda-forge
+  - defaults
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch==2.1.1 --index-url https://download.pytorch.org/whl/cu121
+    - torchvision==0.16.1 --index-url https://download.pytorch.org/whl/cu121
+    - torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu121
+    - numpy<2
+    - open-clip-torch
+    - plyfile==0.8.1
+    - tqdm
+    - opencv-python
+    - tensorboard
+    - jaxtyping
+    - matplotlib
+    - typing
+    - pathlib
+    - setuptools==69.0.0
+    - packaging
